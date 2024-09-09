@@ -1,0 +1,86 @@
+:root {
+    --darkBase: #000000;
+    --darkAccent: rgba(0, 0, 0, 0.5);
+    --lightBase: #ffffff;
+    --lightAccent: rgba(255, 255, 255, 0.2);
+    --borderDark: 1px solid var(--darkAccent);
+    --transition: all 200ms ease-in-out;
+    --opacity: .8;
+
+    /*Size */
+    /*2px */
+    --size-xxx-small: 0.125rem;
+    /*3px */
+    --size-xx-small: 0.188rem;
+    /*5px */
+    --size-x-small: 0.313rem;
+    /*7px */
+    --size-small-sm: 0.438rem;
+    /*10px */
+    --size-small-base: 0.625rem;
+    /*12px */
+    --size-small-xl: 0.75rem;
+    /*14px */
+    --size-base-sm: 0.875rem;
+    /*16px */
+    --size-base: 1rem;
+    /*18px */
+    --size-1-xl: 1.125rem;
+    /*20px */
+    --size-2-base: 1.25rem;
+    /*24px */
+    --size-2-xl: 1.5rem;
+    /*30px */
+    --size-3-base: 1.875rem;
+    /*36px */
+    --size-3-xl: 2.25rem;
+    /*40px */
+    --size-4-base: 2.5rem;
+    /*48px */
+    --size-4-xl: 3rem;
+    /*50px */
+    --size-5-base: 3.125rem;
+    /*60px */
+    --size-6-base: 3.75rem;
+    /*70px */
+    --size-7-base: 4.375rem;
+    /*72px */
+    --size-7-xl: 4.5rem;
+    /*80px */
+    --size-8-base: 5rem;
+    /*90px */
+    --size-9-base: 5.625rem;
+    /*96px */
+    --size-9-xl: 6rem;
+    /*100px */
+    --size-10-base: 6.25rem;
+    /*128px */
+    --size-12-xl: 8rem;
+
+    /*Clamp */
+    --clamp-x-small: clamp(var(--size-xx-small), .5vw, var(--size-x-small));
+    --clamp-small: clamp(var(--size-small-sm), 1vw, var(--size-small-base));
+    --clamp-small-xl: clamp(var(--size-small-base), 1.2vw, var(--size-small-xl));
+    --clamp-base-sm: clamp(var(--size-small-xl), 1.4vw, var(--size-base-sm));
+    --clamp-base: clamp(var(--size-base-sm), 1.6vw, var(--size-base));
+    --clamp-1-xl: clamp(var(--size-base), 1.8vw, var(--size-1-xl));
+    --clamp-2-base: clamp(var(--size-base), 2vw, var(--size-2-base));
+    --clamp-2-xl: clamp(var(--size-1-xl), 2.4vw, var(--size-2-xl));
+    --clamp-3-base: clamp(var(--size-2-xl), 3vw, var(--size-3-base));
+    --clamp-3-xl: clamp(var(--size-2-base), 3.6vw, var(--size-3-xl));
+    --clamp-4-base: clamp(var(--size-2-xl), 4vw, var(--size-4-base));
+    --clamp-4-xl: clamp(var(--size-3-base), 4.8vw, var(--size-4-xl));
+    --clamp-6-base: clamp(var(--size-3-xl), 6vw, var(--size-6-base));
+    --clamp-7-base: clamp(var(--size-6-base), 7vw, var(--size-7-base));
+
+    /*Font Weight*/
+    --fw-thin: 100;
+    --fw-extraLight: 200;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semiBold: 600;
+    --fw-bold: 700;
+    --fw-extraBold: 800;
+    --fw-black: 900;
+}
